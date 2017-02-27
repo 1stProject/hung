@@ -10,6 +10,6 @@
 <title>Index</title>
 </head>
 <body>
-	<c:redirect url="/views/login.jsp" />
+	<h3>eclipse에 연동함 - 김주희</h3>
 </body>
 </html>
