@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>부서배정</title>
+    <link rel="stylesheet" href="style/css/reset.css">
+    <link rel="stylesheet" href="style/css/style.css">
+</head>
+<body>
+<header>
+    <h1>
+        <a href="deptList.html">인사관리 시스템</a>
+    </h1>
+    <ul class="login-info">
+        <li class="logout-btn"><a href="#">로그아웃</a></li>
+    </ul>
+</header>
+<nav>
+    <ul>
+        <li class="user-info">
+            이순신 님
+        </li>
+        <li>
+            <a href="deptList.html">부서목록</a>
+        </li>
+        <li>
+            <a href="deptCreate.html">부서등록</a>
+        </li>
+        <li>
+            <a href="employeeList.html">전체직원목록</a>
+        </li>
+        <li>
+            <a href="employeeCreate.html">직원등록</a>
+        </li>
+        <li>
+            <a href="#">시스템관리</a>
+        </li>
+    </ul>
+</nav>
+<div class="contents-wrap">
+    <h2 class="page-title">부서배정</h2>
+    <div class="contents">
+        <form action="/hr/dept/assign" method="post">
+            <table>
+                <tr>
+                    <td>사번 : 160005</td>
+                </tr>
+                <tr>
+                    <td>이름 : 홍길동</td>
+                </tr>
+                <tr>
+                    <td>
+                        <select name="deptNo">
+                            <option>== 부서선택 ==</option>
+                            <option>개발팀</option>
+                            <option>연구소</option>
+                            <option>컨설팅</option>
+                            <option>경영관리팀</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <div class="alignRight">
+                <input type="submit" value="배정">
+            </div>
+        </form>
+    </div>
+</div>
+<footer>
+    <p>    &#169; 2016. Nextree all rights reserved.</p>
+</footer>
+</body>
+</html>
+
+
+
+
+
+

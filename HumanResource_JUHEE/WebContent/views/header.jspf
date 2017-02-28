@@ -1,0 +1,9 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<h1>
+	<a href="${ctx }/views/menu.jsp">인사관리 시스템</a>
+</h1>
+<ul class="login-info">
+	<li class="logout-btn"><a href="${ctx }/logout.do">로그아웃</a></li>
+</ul>
